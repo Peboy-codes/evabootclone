@@ -81,15 +81,15 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   text-decoration: none;
   font-size: 1.5rem;
   border-radius: 3px;
-  
 }
 
 .btn-white-bg {
-  padding: 1.4rem 3rem;
+  padding: 1.4rem 2.8rem;
   background-color: #fff;
   border: 2px solid #4e17c3;
   color: #4e17c3;
@@ -98,10 +98,10 @@ body {
 .btn-free {
   background-color: #4e17c3;
   color: #fff;
-  
 }
 
-.btn-with-icon:link, .btn-with-icon:visited {
+.btn-with-icon:link,
+.btn-with-icon:visited {
   display: flex;
   align-items: center;
   justify-items: center;
