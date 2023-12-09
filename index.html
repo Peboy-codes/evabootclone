@@ -1,114 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,200&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,200&display=swap"
-      rel="stylesheet"
-    />
+  <title>LinkedIn Sales Navigator Scraper</title>
+  
+  <!-- HTML -->
+  
 
-    <title>LinkedIn Sales Navigator Scraper</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/general.css">
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <script defer src="main.js"></script>
+</head>
 
-    <!-- HTML -->
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/general.css" />
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-
-    <script defer src="main.js"></script>
-  </head>
-
-  <body>
-    <!-- - - - - - - - - - - - - - HEADER NAVIGATION AND LOGO
+<body>
+ 
+  <!-- - - - - - - - - - - - - - HEADER NAVIGATION AND LOGO
   - - - - - - - - - - - -->
-
-    <header class="section-head">
-      <div class="container header">
-        <!--logo-->
-        <a href="#"
-          ><img
-            class="logo"
-            src="/img/logos/evaboot-logo.png.webp"
-            alt="evaboot logo"
-        /></a>
-
-        <!--Navigation-->
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">Pricing</a></li>
-            <li><a class="main-nav-link" href="#">FAQ</a></li>
-            <li><a class="main-nav-link" href="#">Blog</a></li>
-            <li><a class="main-nav-link" href="#">Watch Demo</a></li>
-            <li><a class="main-nav-link login-cta" href="#">Login</a></li>
-            <li>
-              <a class="main-nav-link main-cta link-with-icon" href="#"
-                ><ion-icon
-                  class="icon-link"
-                  name="arrow-up-circle-outline"
-                ></ion-icon
-                ><span class="cta-text">Try for free</span></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <!-- - - - - - - - - - - - - - HERO SECTION 
+  
+  <header class="section-head">
+    
+    
+    <div class="container header">
+      
+      <!--logo-->
+      <a href="#"><img class="logo" src="/img/logos/evaboot-logo.png.webp" alt="evaboot logo"></a>
+    
+    <!--Navigation-->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link" href="#">FAQ</a></li>
+          <li><a class="main-nav-link" href="#">Blog</a></li>
+          <li><a class="main-nav-link" href="#">Watch Demo</a></li>
+          <li><a class="btn btn-nav btn-white-bg" href="#">Login</a></li>
+          <li><a class="btn btn-nav btn-with-icon btn-free" href="#"><ion-icon class="icon-free" name="arrow-up-circle-outline"></ion-icon><span>Try for free</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  </header>
+  
+  <main>
+    
+    <!-- - - - - - - - - - - - - - HERO SECTION 
     - - - - - - - - - - - -->
-      <section class="hero-section">
-        <div class="hero container grid grid-2-cols">
-          <!--Texts for section hero-->
-          <div class="hero-text-box">
-            <h1 class="heading-primary margin-bottom-md">
-              The Smartest <span>LinkedIn Sales Navigator</span> Scraper
-            </h1>
-
-            <p class="h1-desc margin-bottom-md">
-              <strong
-                >Export clean data and find emails from LinkedIn Sales
-                Navigator</strong
-              >
-              in just one click with our Chrome Extension
-            </p>
-            <div class="hero-cta-box">
-              <a class="main-cta hero-cta" href="#">Export leads for free</a>
-              <a href="#" class="link-with-icon login-cta hero-cta"
-                ><span>Watch Demo</span>
-                <ion-icon
-                  class="icon-link watch-icon"
-                  name="film-outline"
-                ></ion-icon
-              ></a>
-            </div>
-
-            <p>No credit card required 💳</p>
+    <section class="hero-section">
+      <div class="hero container grid grid-2-cols">
+        <!--Texts for section hero-->
+        <div class="hero-text-box">
+          <h1 class="heading-primary margin-bottom-md">The Smartest <span>LinkedIn Sales Navigator</span> Scraper </h1>
+          
+          <p class="h1-desc margin-bottom-md"><strong>Export clean data and find emails from LinkedIn Sales Navigator</strong> in just one click with our Chrome Extension</p>
+          <div class="hero-cta-box">
+            <a class="btn btn-free"href="#">Export leads for free</a>
+            <a href="#" class="btn btn-white-bg btn-with-icon"><span>Watch Demo</span> <ion-icon class="watch-icon" name="film-outline"></ion-icon></a>
           </div>
-          <!--Image for section hero-->
-          <div class="hero-img-box">
-            <img
-              class="hero-img"
-              src="img/hero.webp"
-              alt="Screenshot of LinkedIn Sales Navigator in action"
-            />
-          </div>
+          
+          <p>No credit card required 💳</p>
+          
         </div>
-      </section>
-    </main>
-  </body>
+        <!--Image for section hero-->
+        <div class="hero-img-box">
+          <img class="hero-img" src="img/hero.webp" alt="Screenshot of LinkedIn Sales Navigator in action">
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
 </html>
