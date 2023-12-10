@@ -48,7 +48,7 @@
 }
 
 .btn-nav.btn-white-bg {
-  padding: 0.8rem 2.8rem !important;
+  padding: 1.1rem 2.8rem !important;
 }
 
 .btn-nav:hover {
@@ -78,8 +78,8 @@
 
 .h1-desc {
   font-size: 2.7rem;
-  line-height: 1;
-  letter-spacing: 0.8px;
+  line-height: 1.1;
+  letter-spacing: 0.3px;
 }
 
 .hero-cta-box {
@@ -89,14 +89,16 @@
 }
 
 .hero-cta-box .btn {
-  font-size: 2.2rem !important;
-  font-weight: 600;
+  font-size: 2.1rem !important;
+  font-weight: 700;
   white-space: nowrap;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 
 .hero-text-box p:last-child {
   margin-top: 2.4rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #474747;
 }
 
 .hero-cta-box > :first-child {
@@ -104,15 +106,17 @@
 }
 
 .watch-icon {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
   color: #000;
+  margin-left: 0.8rem;
 }
 
 .hero-img-box {
   border-radius: 1.1rem;
   background-color: #bbb;
   overflow: hidden;
+  box-shadow: 0 1.4rem 7rem rgba(0, 0, 0, 0.075);
 }
 
 .hero-img {
