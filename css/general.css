@@ -52,7 +52,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #000000;
+  color: #000;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -88,25 +88,25 @@ body {
   border-radius: 3px;
 }
 
-.btn-white-bg {
+.btn-white-bg:link, .btn-white-bg:visited {
   padding: 1.4rem 2.8rem;
   background-color: #fff;
   border: 2px solid #4e17c3;
   color: #4e17c3;
 }
 
-.btn-free {
+.btn-free:link, .btn-free:visited{
   background-color: #4e17c3;
   color: #fff;
+  
 }
 
 .btn-with-icon:link,
 .btn-with-icon:visited {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  text-align: center;
 }
 
 .margin-right-sm {
@@ -114,7 +114,7 @@ body {
 }
 
 .margin-bottom-md {
-  margin-bottom: 3rem !important;
+  margin-bottom: 3.2rem !important;
 }
 
 .center-text {
